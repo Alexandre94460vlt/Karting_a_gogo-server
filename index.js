@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // --- CONNEXION WEBSOCKET ---
 async function initRemote() {
-  const wsUrl = "wss://https://karting-a-gogo-server.onrender.com";
+  const wsUrl = "wss://karting-a-gogo-server.onrender.com";
   console.log("📡 Tentative WebSocket sur :", wsUrl);
 
   socket = new WebSocket(wsUrl);
