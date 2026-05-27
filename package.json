@@ -1,0 +1,16 @@
+{
+  "name": "serveur-karting",
+  "version": "1.0.0",
+  "description": "Serveur relais pour le jeu Godot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.20.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
